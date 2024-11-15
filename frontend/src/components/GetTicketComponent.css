@@ -1,0 +1,25 @@
+.full-height {
+    height: 100vh;
+  }
+  
+  .overflow-auto {
+    overflow-y: auto;
+  }
+
+  .services-container {
+    background-color: #f0f0f0; /* Set your desired background color */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .service-button {
+    transition: transform 0.2s;
+  }
+  
+  .service-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-button.selected {
+    border-color: #007bff;
+  }

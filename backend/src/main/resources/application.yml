@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5332/oqms
+    username: group08
+    password: '}q&7:O497y2Ao61m"LXs'
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        ddl-auto: update
+        format_sql: true
+      show_sql: true
+  main:
+    web-application-type: servlet
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
